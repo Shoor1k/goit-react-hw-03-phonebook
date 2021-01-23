@@ -1,0 +1,37 @@
+@import-normalize;
+* {
+  box-sizing: border-box;
+  &::before,
+  &::after {
+    box-sizing: inherit;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 20px 0;
+  background-color: #eceff1;
+  color: #525357;
+  font-size: 22px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

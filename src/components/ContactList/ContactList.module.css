@@ -1,0 +1,16 @@
+.contactsList{
+    list-style: disc;
+}
+.button{
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(74, 131, 238);
+    color: white;
+    border-color: transparent;
+}
